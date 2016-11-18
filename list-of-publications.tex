@@ -1,0 +1,181 @@
+%%---------------------------------------------------------------------------
+%
+% Notes:
+%
+% * To create a new page use
+%   \newpage \opening
+%
+% * res.cls includes an \address{} command which can be used up to twice,
+%   but my address is too long for the format it uses.
+%
+% * Alternate documentclass command:
+%   \documentclass[margin,line,11pt,final]{res}
+%
+% * When publication/presentation list gets longer, divide into subsections
+%   by year like this:
+%   \section{\bf\hspace{8mm}2005}
+%
+%%----------------------------------------------------------------------------
+
+\let\nofiles\relax % Void the \nofiles command in res.cls
+\documentclass[overlapped,line,final,11pt,letterpaper]{res}
+
+%%% BibLaTeX %%%
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\usepackage{bibentry}
+\addbibresource{list-of-publications}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,urlcolor=blue,
+  pdftitle={Wouter Deconinck: List of Publications},
+  pdfauthor={Wouter Deconinck},
+  pdfcreator={\LaTeX\ with package \flqq hyperref\frqq},
+  pdfsubject={List of Publications},
+  pdfkeywords={exotic baryons hermes parity violation electron scattering qweak}
+}
+
+%%===========================================================================%%
+
+\begin{document}
+
+\name{Wouter Deconinck}
+\address{\href{mailto:Wouter Deconinck <wdeconinck@wm.edu>}{\texttt{wdeconinck@wm.edu}}}
+
+\begin{resume}
+
+\section{\bf List of Peer-Reviewed Publications}
+Publications with * are based on experiments conducted after joining the William \& Mary faculty and have the William \& Mary byline. As is often the case in large collaborative experiments, the list of authors and institutions is based on the affiliation at the time of data collection, not submission of the manuscript.
+
+\begin{enumerate}
+\sloppy
+
+\subsection{\bf 2015}
+
+\item* \fullcite{Wang:2015iya}
+\item* \fullcite{Wang:2014guo}
+\item* \fullcite{Allison:2014tpu}
+\item \fullcite{Akopov:2014qyk}
+\item \fullcite{Parno:2014xzb}
+
+\subsection{\bf 2014}
+
+\item \fullcite{Wang:2014bba}
+\item \fullcite{Korover:2014dma}
+\item \fullcite{Posik:2014usi}
+\item \fullcite{Zhang:2013dow}
+\item \fullcite{Zhao:2014qvx}
+\item \fullcite{Allada:2013nsw}
+\item \fullcite{Katich:2013atq}
+\item \fullcite{Airapetian:2014gfp}
+\item \fullcite{Airapetian:2014tyc}
+\item \fullcite{Airapetian:2013zaw}
+\item \fullcite{Airapetian:2013gta}
+\item \fullcite{Airapetian:2013bim}
+
+\subsection{\bf 2013}
+
+\item \fullcite{Airapetian:2012ki}
+\item \fullcite{Airapetian:2012yg}
+\item* \fullcite{Androic:2013rhu}
+\item* \fullcite{Wang:2013kkc}
+
+\subsection{\bf 2012}
+
+\item \fullcite{Airapetian:2012pg}
+\item \fullcite{Airapetian:2012mq}
+\item \fullcite{Airapetian:2011wu}
+\item* \fullcite{Abeyratne:2012ah}
+\item* \fullcite{Abrahamyan:2012cg}
+\item* \fullcite{Abrahamyan:2012gp}
+\item \fullcite{Huang:2011bc}
+\item* \fullcite{Ahmed:2011vp}
+
+\subsection{\bf 2011}
+
+\item \fullcite{Airapetian:2010dh}
+\item \fullcite{Airapetian:2011jp}
+\item \fullcite{Airapetian:2011uq}
+\item \fullcite{Airapetian:2011nu}
+\item \fullcite{Airapetian:2010aa}
+\item \fullcite{Qian:2011py}
+
+\subsection{\bf 2010}
+
+\item \fullcite{Airapetian:2010ds}
+\item \fullcite{Airapetian:2010ab}
+\item \fullcite{Airapetian:2010ac}
+\item \fullcite{Airapetian:2009bm}
+\item \fullcite{Airapetian:2009ab}
+\item \fullcite{Airapetian:2009ac}
+\item \fullcite{Airapetian:2009jy}
+\item \fullcite{Airapetian:2009bi}
+
+\subsection{\bf 2009}
+
+\item \fullcite{Airapetian:2009aa}
+\item \fullcite{Airapetian:2009ad}
+\item \fullcite{Airapetian:2009ae}
+\item \fullcite{Airapetian:2009af}
+
+\subsection{\bf 2008}
+
+\item \fullcite{Airapetian:2008qf}
+\item \fullcite{Airapetian:2008sk}
+\item \fullcite{Airapetian:2008aa}
+\item \fullcite{Airapetian:2007aa}
+
+\subsection{\bf 2007}
+
+\item \fullcite{Airapetian:2007vu}
+\item \fullcite{Airapetian:2006rx}
+\item \fullcite{Airapetian:2007mh}
+\item \fullcite{Airapetian:2006zr}
+\item \fullcite{Deconinck:2007zz}
+
+\subsection{\bf 2006}
+
+\item \fullcite{Airapetian:2006ee}
+\item \fullcite{Airapetian:2005yh}
+
+\subsection{\bf 2005}
+
+\item \fullcite{Airapetian:2005jc}
+\item \fullcite{Airapetian:2004mi}
+
+\subsection{\bf 2004}
+
+\item \fullcite{Airapetian:2003ri}
+
+\end{enumerate}
+
+
+\section{\bf Other Publications}
+
+\begin{enumerate}[resume]
+
+\subsection{\bf Conference Proceedings}
+
+\item* \fullcite{Androic:2014zca}
+\item* \fullcite{Androic:2013phu}
+\item* \fullcite{Androic:2013sna}
+\item \fullcite{Deconinck:PAVI09}
+\item* \fullcite{Deconinck:DSPIN11}
+
+\subsection{\bf Unpublished}
+
+\item* \fullcite{Ackerman:GSM12}
+\item* \fullcite{Benesch:2014bas}
+
+\end{enumerate}
+
+\end{resume}
+
+%%% BibLaTeX %%%
+%\printbibliography
+
+\end{document}
+
+%%===========================================================================%%

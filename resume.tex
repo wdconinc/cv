@@ -1,0 +1,116 @@
+%%---------------------------------------------------------------------------
+%
+%% Notes:
+%
+% * To create a new page use
+%   \newpage \opening
+%
+% * res.cls includes an \address{} command which can be used up to twice,
+%   but my address is too long for the format it uses.
+%
+% * Alternate documentclass command:
+%   \documentclass[margin,line,11pt,final]{res}
+%
+% * When publication/presentation list gets longer, divide into subsections
+%   by year like this:
+%   \section{\bf\small\hspace{8mm}2005}
+%
+%%----------------------------------------------------------------------------
+
+\documentclass[overlapped,line,final,11pt,letterpaper]{res}
+
+\usepackage{multirow,hyperref}
+
+\hypersetup{
+  colorlinks,urlcolor=black,
+  pdftitle={Wouter Deconinck: Resume},
+  pdfauthor={Wouter Deconinck},
+  pdfcreator={\LaTeX\ with package \flqq hyperref\frqq},
+  pdfsubject={Resume},
+  pdfkeywords={research project management}
+}
+
+%%===========================================================================%%
+
+\begin{document}
+
+\name{Wouter Deconinck}
+\address{P.O. Box 8795, Williamsburg, VA 23187 $\bullet$ (757) 221-3539 $\bullet$ \href{mailto:Wouter Deconinck <wdeconinck@wm.edu>}{\texttt{wdeconinck@wm.edu}}}
+
+\begin{resume}
+\vspace{-\baselineskip}
+\paragraph{Focus} this \\
+
+
+%---------------------------------------------------------------------------
+
+\section{\bf Qualifications}
+\begin{itemize}
+\item Ph.D. in Physics, University of Michigan, Ann Arbor (April 2008)
+\item M.S. in Engineering Physics, University of Gent, Belgium, with great distinction (July 2003)
+\end{itemize}
+
+%---------------------------------------------------------------------------
+
+\section{\bf Experience}
+
+\begin{format}
+\employer{l}\location{r}\\
+\title{l}\dates{r}\\
+\body
+\end{format}
+
+\employer{\bf College of William \& Mary}
+\title{Assistant Professor}
+\location{Williamsburg, Virginia}
+\dates{May 2010--present}
+\begin{position}
+\vspace{-0.8\baselineskip}
+\begin{itemize}
+\item Management of a research group with 10 graduate and undergraduate students.
+\item Attracted more than \$1.7 million in federal funding from the National Science Foundation for research and educational programs.
+\item Instructed existing and newly developed courses at all levels of the undergraduate and graduate physics curriculum, including laboratory and lecture-based courses.
+\end{itemize}
+\end{position}
+
+\employer{\bf Massachusetts Institute of Technology}
+\title{Postdoctoral Associate at Jefferson Lab}
+\location{Newport News, Virginia}
+\dates{June 2008--April 2010}
+\begin{position}
+\vspace{-0.8\baselineskip}
+\begin{itemize}
+\item this
+\end{itemize}
+\end{position}
+
+\employer{\bf Deutsches Elektronen Synchrotron}
+\title{Research Fellow}
+\location{Hamburg, Germany}
+\dates{January--May 2008}
+\begin{position}
+\vspace{-0.8\baselineskip}
+\begin{itemize}
+\item this
+\end{itemize}
+\end{position}
+
+%---------------------------------------------------------------------------
+
+\section{\bf Affiliations and Activities}
+
+%---------------------------------------------------------------------------
+
+\section{\bf References}
+
+Dennis Manos \\
+Vice Provost for Research \\
+
+
+%%---------------------------------------------------------------------------%%
+
+\end{resume}
+
+\end{document}
+
+%%===========================================================================%%
