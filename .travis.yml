@@ -7,6 +7,7 @@ before_install:
 - sudo apt-get install -y pandoc rubber
 - sudo apt-get install -y texlive-fonts-recommended texlive-fonts-extra
 - sudo apt-get install -y texlive-latex-recommended texlive-latex-extra
+- sudo apt-get install -y texlive-generic-extra texlive-bibtex-extra
 - sudo apt-get install -y texlive-science texlive-pictures
 - sudo apt-get install -y texlive-xetex
 
