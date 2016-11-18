@@ -13,8 +13,8 @@ before_install:
 
 script:
 - pdflatex resume.tex
-- rubber --pdf curriculum-vitae.tex
-- rubber --pdf list-of-publications.tex
+- pdflatex curriculum-vitae.tex
+- pdflatex list-of-publications.tex && bibtex list-of-publications && pdflatex list-of-publications.tex
 
 deploy:
   provider: releases
